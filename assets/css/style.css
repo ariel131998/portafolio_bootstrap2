@@ -11198,7 +11198,7 @@ textarea.form-control-lg {
   }
 }
 
-.lenguajes, .our-services, .list-group-item {
+.lenguajes, .our-services, .list-group-item, .education {
   color: white;
   background-color: #181a1b;
   border: 0;
@@ -11404,6 +11404,65 @@ html {
 .testimonials__name p {
   padding-bottom: 2rem;
   text-transform: capitalize;
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
+.content-box {
+  position: relative;
+}
+.content-box__icon {
+  width: 2rem;
+  stroke: #243E73;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .content-box__icon {
+    width: 4rem;
+  }
+}
+.content-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.content-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .content-box__info--title {
+    font-size: 1.3rem;
+  }
+}
+.content-box__info--subtitle {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .content-box__info--subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-sm {
+  background-color: #151414;
+}
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.7rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
