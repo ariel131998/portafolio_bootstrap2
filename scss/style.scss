@@ -1,0 +1,19 @@
+
+@use 'custom';
+
+//importamos los componentes 
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//importamos las secciones
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/companies.scss';
+@use 'sections/services.scss';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portafolio';
+@use 'sections/get-started';
+@use 'sections/footer';

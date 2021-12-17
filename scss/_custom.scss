@@ -1,0 +1,38 @@
+//import bootstrap 5
+//my them color, aqui puedo modificar por los colores que quiero que sean los primarios o secundarios para la pagina
+$purple-dark:  #243E73;
+//por si quiero cambiar a mi tema poner #666E73 que es gris. antes #9926f0, light #BB6EF5;
+$purple-light: #4A6D8C;
+$azul-fuerte: #192640;
+$negro-gris: #181a1b;
+//el otre seria un negro con #070B0D
+$pink:    #6593A6;
+
+//custom white anh grey colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+//default colors 
+$primary:       $purple-dark;
+$secondary:     $pink;
+
+//sobreescribir el color del boton del acordeon, widget desplegable
+$accordion-icon-color:                    $primary;
+$accordion-icon-active-color:             $secondary;
+//sobreescribir icono
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zM2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z'/><path d='M12.75 7.75a.75.75 0 00-1.5 0v3.5h-3.5a.75.75 0 000 1.5h3.5v3.5a.75.75 0 001.5 0v-3.5h3.5a.75.75 0 000-1.5h-3.5v-3.5z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M4.5 12.75a.75.75 0 01.75-.75h13.5a.75.75 0 010 1.5H5.25a.75.75 0 01-.75-.75z'/></svg>");
+//remplazar tano 
+$accordion-icon-width:                    1.2rem;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
